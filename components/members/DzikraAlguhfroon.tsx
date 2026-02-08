@@ -5,13 +5,12 @@ export default function DzikraAlguhfroon() {
     <MemberCard
       name="Dzikra Alguhfroon"
       nim="251524041"
-      hobby="belajar"
-      description="Mahasiswa."
+      hobby="Learning"
+      description="I am a programmer with a strong passion for learning new things."
       role={{ name: "Backend Dev", color: "bg-emerald-600" }}
       cvDetails={[
-        "Rust & Go Background",
-        "CI/CD Implementation",
-        "Cloud Infrastructure",
+        "Expert in php",
+        "2+ years in NodeJs development",
       ]}
       profileImg="/images/dzikra.jpg"
     />
