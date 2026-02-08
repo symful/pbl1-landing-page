@@ -6,12 +6,12 @@ export default function KemalArdian() {
       name="Kemal Ardian"
       nim="251524053"
       hobby="System Architecture"
-      description="All-role engineer"
+      description="A passionate engineer that loves to make new modern system architecture every Sunday"
       role={{ name: "All-Role Engineer", color: "bg-indigo-600" }}
       cvDetails={[
         "3+ years in PHP development",
-        "Expert in Laravel & Deno",
-        "PBL1 Team Coordinator",
+        "Expert in Laravel, Flutter & Deno",
+        "5+ years Freelancer",
       ]}
       profileImg="/images/kemal.jpg"
     />

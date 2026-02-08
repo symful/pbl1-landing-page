@@ -40,16 +40,23 @@ export default function MemberCard(props: MemberProps) {
           )}
 
           <div class="flex-1 min-w-0">
-            <div class={`inline-block px-3 py-1 rounded-full text-[9px] font-black tracking-[0.15em] uppercase mb-2 ${props.role.color} text-white shadow-lg`}>
+            <div class={`inline-block px-3 py-1 rounded-full ${
+              props.role.name.length > 25 ? "text-[7px]" : 
+              props.role.name.length > 20 ? "text-[8px]" : "text-[9px]"
+            } font-black tracking-[0.15em] uppercase mb-2 ${props.role.color} text-white shadow-lg whitespace-nowrap`}>
               {props.role.name}
             </div>
-            <h3 class="text-2xl font-bold text-white tracking-tight leading-none truncate group-hover:text-cyan-400 transition-colors">
+            <h3 class={`${
+              props.name.length > 25 ? "text-base" : 
+              props.name.length > 20 ? "text-lg" : 
+              props.name.length > 15 ? "text-xl" : "text-2xl"
+            } font-bold break-words whitespace-normal text-white tracking-tight leading-none group-hover:text-cyan-400 transition-colors`}>
               {props.name}
             </h3>
-            <div class="mt-2 flex items-center gap-2">
+            <div class="mt-2 flex items-center gap-2 h-4">
               <div class="w-1 h-1 rounded-full bg-white/30 shrink-0" />
               <span class="text-[10px] font-mono text-white/30 uppercase tracking-widest leading-none">
-                REF: {props.nim}
+                NIM: {props.nim}
               </span>
             </div>
           </div>

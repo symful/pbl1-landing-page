@@ -13,6 +13,7 @@ export default function FaturHanafi() {
         "Market Research Analyst",
         "Visual Branding",
       ]}
+      profileImg="/images/Fatur.jpeg"
     />
   );
 }
