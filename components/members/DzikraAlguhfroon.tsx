@@ -7,13 +7,12 @@ export default function DzikraAlguhfroon() {
       nim="251524041"
       hobby="belajar"
       description="Mahasiswa."
-      role={{ name: "Mahasiswa", color: "bg-emerald-600" }}
+      role={{ name: "Backend Dev", color: "bg-emerald-600" }}
       cvDetails={[
         "Rust & Go Background",
         "CI/CD Implementation",
         "Cloud Infrastructure",
       ]}
-      profileImg="/images/kemal.jpg"
     />
   );
 }
