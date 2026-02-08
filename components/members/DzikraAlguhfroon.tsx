@@ -13,6 +13,7 @@ export default function DzikraAlguhfroon() {
         "CI/CD Implementation",
         "Cloud Infrastructure",
       ]}
+      profileImg="/images/dzikra.jpg"
     />
   );
 }
