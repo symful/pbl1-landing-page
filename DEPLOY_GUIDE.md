@@ -77,13 +77,30 @@ git push -u origin main
 1. Buka repository di GitHub
 2. Klik **Settings** (tab atas)
 3. Scroll ke **Pages** (sidebar kiri)
+
+**Tampilan awal sebelum konfigurasi:**
+
+![Tampilan GitHub Pages sebelum konfigurasi](tampilan-github-pages.png)
+
 4. Di bagian **Source**:
    - Branch: `main`
    - Folder: `/ (root)`
 5. Klik **Save**
-6. Tunggu 1-2 menit
+
+**Tampilan saat proses build:**
+
+![Tampilan GitHub Pages sedang di-build](tampilan-github-pages-sedang-dibuilt.png)
+
+6. Tunggu 1-2 menit hingga proses build selesai
 
 ### 🎉 Website Live!
+
+**Tampilan setelah website live:**
+
+![Tampilan GitHub Pages sudah live](tampilan-github-pages-sudah-live.png)
+
+✅ Sekarang website kamu sudah bisa diakses!
+
 URL kamu: `https://USERNAME.github.io/team-landing-page/`
 
 ---
@@ -121,11 +138,14 @@ git push
 
 ```
 team-landing-page/
-├── index.html      ← Halaman utama
-├── styles.css      ← Styling
-├── script.js       ← JavaScript
-├── imagefoto.png   ← Foto profil team
-└── DEPLOY_GUIDE.md ← Panduan ini
+├── index.html                               ← Halaman utama
+├── styles.css                               ← Styling
+├── script.js                                ← JavaScript
+├── imagefoto.png                            ← Foto profil team
+├── tampilan-github-pages.png                ← Screenshot panduan
+├── tampilan-github-pages-sedang-dibuilt.png ← Screenshot panduan
+├── tampilan-github-pages-sudah-live.png     ← Screenshot panduan
+└── DEPLOY_GUIDE.md                          ← Panduan ini
 ```
 
 ---
