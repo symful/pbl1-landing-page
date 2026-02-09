@@ -16,7 +16,7 @@ export default function Home() {
       <main class="relative z-10 max-w-7xl mx-auto px-6 pt-24 pb-32">
         <header class="text-center mb-24">
           <div class="inline-block px-4 py-1.5 mb-6 rounded-full border border-white/5 bg-white/5 backdrop-blur-md text-cyan-400 text-xs font-bold tracking-[0.2em] uppercase">
-            PBL1 Digital Showcase
+            PBL1 Digital Showcase - Kata Akhtar Nama Timnya Apa Yah
           </div>
           <h1 class="text-6xl md:text-8xl font-black tracking-tight mb-8">
             MEET THE <span class="text-transparent bg-clip-text bg-gradient-to-r from-indigo-400 via-cyan-400 to-purple-400">SQUAD</span>
@@ -39,7 +39,7 @@ export default function Home() {
       <footer class="relative z-10 border-t border-white/5 py-12">
         <div class="max-w-7xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center gap-6">
           <p class="text-white/30 text-sm font-medium tracking-wide">
-            © 2026 THE SQUAD LABORATORY
+            © 2026 KATA AKHTAR NAMA TIMNYA APA YAH
           </p>
           <div class="flex gap-8 text-white/30 text-xs font-black tracking-widest uppercase">
             <span>PBL1 PROJECT</span>
