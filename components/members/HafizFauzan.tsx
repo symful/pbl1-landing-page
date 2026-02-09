@@ -10,7 +10,8 @@ export default function HafizFauzan() {
       role={{ name: "IoT Developer", color: "bg-blue-600" }}
       cvDetails={[
         "Edge Devices Development",
-        "IoT Enthusiast"
+        "IoT Enthusiast",
+        "EmbeddedSystem Designer"
       ]}
     />
   );
