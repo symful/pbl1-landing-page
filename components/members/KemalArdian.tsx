@@ -15,7 +15,7 @@ export default function KemalArdian() {
       cv={{
         items: [
           "3+ years in PHP development",
-          "Expert in Laravel, Flutter & Deno",
+          "Expert in Laravel, Flutter, Go & Deno",
           "5+ years Freelancer",
         ],
         color: "#94a3b8"
