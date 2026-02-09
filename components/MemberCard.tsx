@@ -40,7 +40,10 @@ export default function MemberCard(props: MemberProps) {
           )}
 
           <div class="flex-1 min-w-0">
-            <div class={`inline-block px-3 py-1 rounded-full text-[9px] font-black tracking-[0.15em] uppercase mb-2 ${props.role.color} text-white shadow-lg`}>
+            <div class={`inline-block px-3 py-1 rounded-full ${
+              props.role.name.length > 25 ? "text-[7px]" : 
+              props.role.name.length > 20 ? "text-[8px]" : "text-[9px]"
+            } font-black tracking-[0.15em] uppercase mb-2 ${props.role.color} text-white shadow-lg whitespace-nowrap`}>
               {props.role.name}
             </div>
             <h3 class={`${
