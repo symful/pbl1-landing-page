@@ -4,10 +4,10 @@ export default function KemalArdian() {
   return (
     <MemberCard
       name="Kemal Ardian"
-      nim="2210001"
+      nim="251524053"
       hobby="System Architecture"
-      description="Visionary leader focused on building scalable systems and elegant code structures."
-      role={{ name: "Project Lead", color: "bg-indigo-600" }}
+      description="All-role engineer"
+      role={{ name: "All-Role Engineer", color: "bg-indigo-600" }}
       cvDetails={[
         "3+ years in PHP development",
         "Expert in Laravel & Deno",
