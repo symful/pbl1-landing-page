@@ -1,10 +1,10 @@
-# PBL1 Landing Page - The Squad Laboratory
+# PBL1 Landing Page - Kata Akhtar Nama Timnya Apa Yah
 
 A premium, high-performance landing page showcasing the members of the PBL1 team. Built with **Deno Fresh**, **Tailwind CSS**, and **TypeScript**.
 
 ## Deployment
 
-The project is live at: [https://pbl1.deno.dev/](https://pbl1.deno.dev/)
+The project is live at: [https://pbl1.deno.dev/](https://pbl1.deno.dev/) and [https://kataakhtarnamatimnyaapayah.my.id/](https://kataakhtarnamatimnyaapayah.my.id/)
 
 ## Local Development
 
