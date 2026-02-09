@@ -10,8 +10,8 @@ export default function KemalArdian() {
       role={{ name: "All-Role Engineer", color: "bg-indigo-600" }}
       cvDetails={[
         "3+ years in PHP development",
-        "Expert in Laravel & Deno",
-        "PBL1 Team Coordinator",
+        "Expert in Laravel, Flutter & Deno",
+        "5+ years Freelancer",
       ]}
       profileImg="/images/kemal.jpg"
     />
