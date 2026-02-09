@@ -46,8 +46,8 @@ export default function MemberCard(props: MemberProps) {
             <h3 class="text-2xl font-bold text-white tracking-tight leading-none truncate group-hover:text-cyan-400 transition-colors">
               {props.name}
             </h3>
-            <div class="mt-2 flex items-center gap-2">
-              <div class="w-1.5 h-1.5 rounded-full bg-white/20" />
+            <div class="mt-2 flex items-center gap-2 h-4">
+              <div class="w-1 h-1 rounded-full bg-white/30 shrink-0" />
               <span class="text-[10px] font-mono text-white/30 uppercase tracking-widest leading-none">
                 REF: {props.nim}
               </span>
