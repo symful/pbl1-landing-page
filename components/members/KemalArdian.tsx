@@ -13,6 +13,7 @@ export default function KemalArdian() {
         "Expert in Laravel & Deno",
         "PBL1 Team Coordinator",
       ]}
+      profileImg="/images/kemal.jpg"
     />
   );
 }
