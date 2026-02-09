@@ -30,20 +30,31 @@ Locate your personal file (e.g., `KemalArdian.tsx`) and update the properties wi
 
 ```tsx
 <MemberCard
-  name="Full Name"           // Your complete name as it should appear on the card
-  nim="Student ID"          // Your official student identification number (NIM)
-  hobby="Your Hobby"         // A short mention of what you enjoy doing
-  description="Summary"      // A brief 1-2 sentence introduction about yourself
-  role={{ 
-    name: "Position",       // Your title (e.g., Project Lead, UI Designer)
-    color: "bg-blue-600"    // Background color for your role badge (Tailwind class)
+  name={{
+    fullName: "Your Name",         // Display name
+    color: "#e2e8f0"               // Text color (hex)
   }}
-  profileImg="/images/image.jpg" // Optional: URL or path to your profile picture
-  cvDetails={[               // A list of items for your mini-CV section
-    "Key Skill or Achievement 1",
-    "Key Skill or Achievement 2",
-    "Professional Experience or Group Contribution",
-  ]}
+  nim="Student ID"                 // NIM
+  hobby="Your Hobby"
+  description="Brief bio"
+  role={{ 
+    label: "Position Name",        // e.g. "Backend Dev"
+    bg: "#059669",                 // Badge background color (hex)
+    text: "#ffffff"                // Badge text color (hex)
+  }}
+  cv={{
+    items: [                       // List of skills/achievements
+      "Skill 1",
+      "Skill 2"
+    ],
+    color: "#94a3b8"               // List item text color (hex)
+  }}
+  theme={{
+    primary: "#059669",            // Main accent color (hex)
+    secondary: "#10b981",          // Secondary accent color (hex)
+    cardBorderHover: "#05966980"   // Border color on hover (hex with alpha)
+  }}
+  profileImg="/images/image.jpg"   // Optional profile image path
 />
 ```
 
@@ -51,14 +62,16 @@ Locate your personal file (e.g., `KemalArdian.tsx`) and update the properties wi
 
 | Property | Description | Format |
 | :--- | :--- | :--- |
-| **name** | Your display name. | Use double quotes: `"John Doe"` |
-| **nim** | Your student ID number. | Use double quotes: `"2210001"` |
-| **hobby** | A brief interest. | Use double quotes: `"UI Research"` |
-| **description** | A short bio or intro. | Use double quotes. Keep it concise. |
-| **role.name** | Your official role. | Use double quotes: `"Backend Developer"` |
-| **role.color** | The badge color. | A Tailwind class like `"bg-red-600"` (see [Tailwind Colors](https://tailwindcss.com/docs/customizing-colors)). |
-| **profileImg** | Optional profile image. | A URL or path: `"/images/photo.jpg"`. Leave out if none. |
-| **cvDetails** | Bullet points. | A list inside brackets: `["Point 1", "Point 2"]`. |
+| **name.fullName** | Your display name. | String |
+| **name.color** | Name text color. | Hex code (e.g. `"#ffffff"`) |
+| **nim** | Student ID. | String |
+| **role.label** | Role title. | String |
+| **role.bg** | Role badge background. | Hex code |
+| **role.text** | Role badge text color. | Hex code |
+| **cv.items** | Bullet points. | List of strings |
+| **cv.color** | Text color for CV items. | Hex code |
+| **theme.primary** | Main glow/accent color. | Hex code |
+| **theme.cardBorderHover** | Border color on hover. | Hex code (can include alpha) |
 
 Add your picture to `/static/images` folder.
 

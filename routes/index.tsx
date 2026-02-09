@@ -3,6 +3,7 @@ import MuhammadAkhtar from "../components/members/MuhammadAkhtar.tsx";
 import HafizFauzan from "../components/members/HafizFauzan.tsx";
 import DzikraAlguhfroon from "../components/members/DzikraAlguhfroon.tsx";
 import FaturHanafi from "../components/members/FaturHanafi.tsx";
+import MusicPlayer from "../islands/MusicPlayer.tsx";
 import { Head } from "$fresh/runtime.ts";
 
 export default function Home() {
@@ -52,6 +53,7 @@ export default function Home() {
           </div>
         </div>
       </footer>
+      <MusicPlayer />
     </div>
   );
 }
