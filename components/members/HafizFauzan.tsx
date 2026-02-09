@@ -6,7 +6,7 @@ export default function HafizFauzan() {
       name="Hafiz Fauzan Syafrudin"
       nim="251524049"
       hobby="Experiment"
-      description="Saya adalah seorang programmer yang suka bereksperimen dengan teknologi dan hal baru"
+      description="I am a programmer who loves to experiment with technology and new things."
       role={{ name: "IoT Developer", color: "bg-blue-600" }}
       cvDetails={[
         "Edge Devices Development",
