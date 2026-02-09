@@ -13,6 +13,7 @@ export default function HafizFauzan() {
         "IoT Enthusiast",
         "EmbeddedSystem Designer"
       ]}
+      profileImg="/images/hafiz.jpeg"
     />
   );
 }
