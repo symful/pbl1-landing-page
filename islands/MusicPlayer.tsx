@@ -146,11 +146,11 @@ export default function MusicPlayer() {
           <div class="flex flex-col w-32 overflow-hidden relative group/text">
             <span class="text-[10px] font-black uppercase tracking-[0.2em] text-cyan-400 leading-none mb-1">Playing</span>
             <div class="relative w-full h-5 overflow-hidden">
-               <div class="flex gap-8 whitespace-nowrap absolute animate-marquee group-hover/text:paused w-max">
-                <span class="text-[11px] font-medium text-white/60 align-middle">
+               <div class="flex whitespace-nowrap absolute animate-marquee group-hover/text:paused w-max">
+                <span class="text-[11px] font-medium text-white/60 align-middle pr-8">
                   {playlist[currentIndex].split('/').pop()?.replace(/\.[^/.]+$/, "")}
                 </span>
-                <span class="text-[11px] font-medium text-white/60 align-middle">
+                <span class="text-[11px] font-medium text-white/60 align-middle pr-8">
                   {playlist[currentIndex].split('/').pop()?.replace(/\.[^/.]+$/, "")}
                 </span>
               </div>
