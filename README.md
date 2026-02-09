@@ -57,8 +57,10 @@ Locate your personal file (e.g., `KemalArdian.tsx`) and update the properties wi
 | **description** | A short bio or intro. | Use double quotes. Keep it concise. |
 | **role.name** | Your official role. | Use double quotes: `"Backend Developer"` |
 | **role.color** | The badge color. | A Tailwind class like `"bg-red-600"` (see [Tailwind Colors](https://tailwindcss.com/docs/customizing-colors)). |
-| **profileImg** | Optional profile image. | A URL or path: `"/photo.jpg"`. Leave out if none. |
+| **profileImg** | Optional profile image. | A URL or path: `"/images/photo.jpg"`. Leave out if none. |
 | **cvDetails** | Bullet points. | A list inside brackets: `["Point 1", "Point 2"]`. |
+
+Add your picture to `/images` folder.
 
 ## Technical Stack
 
