@@ -47,7 +47,7 @@ export default function MemberCard(props: MemberProps) {
               props.name.length > 25 ? "text-base" : 
               props.name.length > 20 ? "text-lg" : 
               props.name.length > 15 ? "text-xl" : "text-2xl"
-            } font-bold text-white tracking-tight leading-none group-hover:text-cyan-400 transition-colors`}>
+            } font-bold break-words whitespace-normal text-white tracking-tight leading-none group-hover:text-cyan-400 transition-colors`}>
               {props.name}
             </h3>
             <div class="mt-2 flex items-center gap-2 h-4">
