@@ -38,7 +38,7 @@ Locate your personal file (e.g., `KemalArdian.tsx`) and update the properties wi
     name: "Position",       // Your title (e.g., Project Lead, UI Designer)
     color: "bg-blue-600"    // Background color for your role badge (Tailwind class)
   }}
-  profileImg="/path/to/image.jpg" // Optional: URL or path to your profile picture
+  profileImg="/images/image.jpg" // Optional: URL or path to your profile picture
   cvDetails={[               // A list of items for your mini-CV section
     "Key Skill or Achievement 1",
     "Key Skill or Achievement 2",
@@ -60,7 +60,7 @@ Locate your personal file (e.g., `KemalArdian.tsx`) and update the properties wi
 | **profileImg** | Optional profile image. | A URL or path: `"/images/photo.jpg"`. Leave out if none. |
 | **cvDetails** | Bullet points. | A list inside brackets: `["Point 1", "Point 2"]`. |
 
-Add your picture to `/images` folder.
+Add your picture to `/static/images` folder.
 
 ## Technical Stack
 
