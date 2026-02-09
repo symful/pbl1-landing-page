@@ -3,10 +3,14 @@ import MuhammadAkhtar from "../components/members/MuhammadAkhtar.tsx";
 import HafizFauzan from "../components/members/HafizFauzan.tsx";
 import DzikraAlguhfroon from "../components/members/DzikraAlguhfroon.tsx";
 import FaturHanafi from "../components/members/FaturHanafi.tsx";
+import { Head } from "$fresh/runtime.ts";
 
 export default function Home() {
   return (
     <div class="min-h-screen bg-[#050505] text-white selection:bg-cyan-500/30">
+      <Head>
+        <title>Kata Akhtar Nama Timnya Apa Yah</title>
+      </Head>
       <div class="fixed inset-0 overflow-hidden pointer-events-none">
         <div class="absolute -top-[10%] -left-[10%] w-[40%] h-[40%] bg-indigo-500/10 blur-[120px] rounded-full" />
         <div class="absolute top-[20%] -right-[5%] w-[35%] h-[35%] bg-cyan-500/10 blur-[120px] rounded-full" />
