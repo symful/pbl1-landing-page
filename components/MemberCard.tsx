@@ -10,6 +10,7 @@ export interface MemberProps {
   description: string;
   role: MemberRole;
   cvDetails: string[];
+  profileImg?: string;
 }
 
 export default function MemberCard(props: MemberProps) {
@@ -24,6 +25,19 @@ export default function MemberCard(props: MemberProps) {
             {props.nim}
           </div>
         </div>
+
+        {props.profileImg && (
+          <div class="relative w-24 h-24 mb-2">
+            <div class="absolute inset-0 bg-gradient-to-tr from-cyan-500 to-indigo-500 rounded-2xl blur-md opacity-20 group-hover:opacity-40 transition-opacity" />
+            <div class="relative w-full h-full rounded-2xl overflow-hidden border border-white/10">
+              <img
+                src={props.profileImg}
+                alt={props.name}
+                class="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-500"
+              />
+            </div>
+          </div>
+        )}
 
         <div>
           <h3 class="text-3xl font-bold text-white mb-2 leading-tight group-hover:text-cyan-400 transition-colors">
