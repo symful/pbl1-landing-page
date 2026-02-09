@@ -55,7 +55,7 @@ Locate your personal file (e.g., `KemalArdian.tsx`) and update the properties wi
 | **hobby** | A brief interest. | Use double quotes: `"UI Research"` |
 | **description** | A short bio or intro. | Use double quotes. Keep it concise. |
 | **role.name** | Your official role. | Use double quotes: `"Backend Developer"` |
-| **role.color** | The badge color. | A Tailwind class like `"bg-red-600"` or `"bg-indigo-600"`. |
+| **role.color** | The badge color. | A Tailwind class like `"bg-red-600"` (see [Tailwind Colors](https://tailwindcss.com/docs/customizing-colors)). |
 | **cvDetails** | Bullet points. | A list inside brackets: `["Point 1", "Point 2"]`. |
 
 ## Technical Stack
