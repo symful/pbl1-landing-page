@@ -5,7 +5,7 @@ export default function MuhammadAkhtar() {
     <MemberCard
       name={{ fullName: "Muhammad Akhtar Khawarizmi", color: "#e2e8f0" }}
       nim="251524055"
-      hobby="Capture The Flag Enjoyer 🚩"
+      hobby="Playing Capture The Flag 🚩"
       description="Writing a documentation around the software"
       role={{ 
         label: "Technical Writer & Tester", 
